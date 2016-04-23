@@ -16,11 +16,6 @@ module SelectState {
         
         restrict = 'E';
         replace = true;
-        // scope = {
-        //     priorities: '@csPriorities',
-        //     only: '@csOnly',
-        //     except: '@csExcept'
-        // }
         template = '<select ng-options="state.code as state.name for state in states"> <option value="" ></option> </select>'
         
         constructor(private $scope: StatesScope, private $attrs: ng.IAttributes) {
