@@ -1,5 +1,6 @@
 {
   "name": "angular-select-state",
+  "version": "0.0.1",
   "description": "An AngularJS module that generates a list of US states using the HTML select tag.",
   "main": "./lib/angular-select-state.js",
   "authors": [
