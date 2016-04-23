@@ -6,7 +6,7 @@ An AngularJS module that generates a list of US states using the HTML select tag
 ## Usage
 Add the dependancy to your app module:
 ```
-angular.module('someApp', ['countrySelect'])
+angular.module('someApp', ['selectState'])
 ```
 
 Add the following in your html `<form></form>` tags:
